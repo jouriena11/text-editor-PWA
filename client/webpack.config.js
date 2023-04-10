@@ -9,7 +9,7 @@ const path = require('path');
 
 module.exports = () => {
   return {
-    mode: 'development', // TODO: By changing mode from 'development' to 'production', Webpack enables various production optimizations, including minimizing and compressing the output code, using hashing for caching purposes, and removing unused code.
+    mode: 'production', // By changing mode from 'development' to 'production', Webpack enables various production optimizations, including minimizing and compressing the output code, using hashing for caching purposes, and removing unused code.
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js'

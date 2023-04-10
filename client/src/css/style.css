@@ -37,6 +37,10 @@ h1 {
   padding-top: 10px;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .loading-spinner {
   animation-duration: 0.75s;
   animation-iteration-count: infinite;
